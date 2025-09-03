@@ -27,7 +27,7 @@ export default function HomeScreen({navigation}) {
             <Text style={styles.bottomButton1Text1}>Sign in </Text>
         </TouchableHighlight>
 
-         <TouchableHighlight style={styles.bottomButton2}>
+         <TouchableHighlight style={styles.bottomButton2} onPress={()=> navigation.navigate("Signup")}>
             <Text style={styles.bottomButton2Text2}>Sign up </Text>
         </TouchableHighlight>
 
